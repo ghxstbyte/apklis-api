@@ -24,7 +24,7 @@ public class ApklisTool {
     }
 
     public Disposable hasUpdate(Context context, UpdateCallback callback) {
-        return client.getAppInfo(context.getPackageName())
+        return client.getAppInfo("com.arr.simple")
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(
