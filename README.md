@@ -10,7 +10,8 @@ implementation("com.github.ghxstbyte:apklis-api:1.0.0")
 ```
 
 ### Usage
-```groovy
+```java
+
 ApklisTool api = new ApklisTool.Builder().build();
 api.hasUpdate(this, new UpdateCallback() {
   @Override
