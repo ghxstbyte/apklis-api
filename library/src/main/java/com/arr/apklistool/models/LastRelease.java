@@ -17,7 +17,7 @@ public class LastRelease {
     public String changelog;
 
     @SerializedName("size")
-    public String size;
+    public int size;
 
     @SerializedName("sha256")
     public String sha;
