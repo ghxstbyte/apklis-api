@@ -66,7 +66,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.ghxstbyte"
             artifactId = "apklis-tool"
-            version = "1.0.3"
+            version = "1.0.4"
 
             afterEvaluate {
                 from(components["release"])

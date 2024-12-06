@@ -1,5 +1,6 @@
 package com.arr.apklistool;
 
+import androidx.annotation.Keep;
 import com.arr.apklistool.models.ApklisResponse;
 import com.arr.apklistool.models.UrlRequest;
 import com.arr.apklistool.models.UrlResponse;
@@ -11,6 +12,7 @@ import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
+@Keep
 public interface ApklisClient {
 
     @GET("application/{packageName}")

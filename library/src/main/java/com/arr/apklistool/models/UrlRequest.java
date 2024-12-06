@@ -1,5 +1,7 @@
 package com.arr.apklistool.models;
+import androidx.annotation.Keep;
 
+@Keep
 public class UrlRequest {
 
     private String release;

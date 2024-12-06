@@ -3,6 +3,7 @@ package com.arr.apklistool;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.util.Log;
+import androidx.annotation.Keep;
 import com.arr.apklistool.callback.UpdateCallback;
 import com.arr.apklistool.models.LastRelease;
 import com.google.gson.Gson;
@@ -15,6 +16,7 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+@Keep
 public class ApklisTool {
 
     private final ApklisClient client;
